@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market & Trading Classes in Sikar | Shekhawati Institute</title>
+    <script src="https://tailwindcss.com"></script>
+    <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- 1. STICKY HEADER -->
+    <header class="sticky top-0 bg-white shadow-md z-50 px-4 py-3 flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+            <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">S</div>
+            <span class="font-bold text-base tracking-wide text-blue-900">SHEKHAWATI TRAINING</span>
+        </div>
+        <a href="#form-section" class="bg-blue-600 text-white font-semibold text-xs px-4 py-2 rounded-full shadow hover:bg-blue-700 transition">
+            Book Demo
+        </a>
+    </header>
+
+    <!-- MOBILE MAIN CONTAINER -->
+    <main class="max-w-md mx-auto px-4 py-6 space-y-12">
+
+        <!-- 2. LEAD GENERATION FORM -->
+        <section id="form-section" class="bg-white rounded-3xl p-6 shadow-xl border border-blue-100">
+            <h2 class="text-2xl font-bold text-slate-900 mb-1">Book a Free Demo</h2>
+            <p class="text-sm text-slate-500 mb-6">Talk to a counsellor today — limited seats per batch.</p>
+
+            <form onsubmit="sendToWhatsapp(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Full Name</label>
+                    <input type="text" id="fullname" required placeholder="Your full name" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:border-blue-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Phone Number</label>
+                    <input type="tel" id="phone" required placeholder="+91 9XXXXXXXXX" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:border-blue-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Select Course</label>
+                    <select id="course" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:border-blue-500 text-sm font-medium">
+                        <option value="Stock Market Baseline">Stock Market Course</option>
+                        <option value="Future and Options">Future & Options (F&O)</option>
+                        <option value="MCX Commodity">MCX Commodity Training</option>
+                        <option value="Investment Education">Investment Education</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">City / State</label>
+                    <input type="text" id="city" value="Sikar, Rajasthan" readonly class="w-full px-4 py-3 rounded-xl border border-blue-100 bg-blue-50 text-blue-700 font-medium cursor-not-allowed">
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-4 rounded-xl shadow-lg flex items-center justify-center space-x-2 mt-6 hover:bg-blue-700 transition">
+                    <span>Send Enquiry on WhatsApp</span> <span>→</span>
+                </button>
+            </form>
+            <p class="text-center text-xs text-slate-500 mt-4">
+                Or Call Us: <a href="tel:+917023147693" class="text-blue-600 font-semibold">+91 70231 47693</a>
+            </p>
+        </section>
+
+        <!-- 3. TITLE & DESCRIPTION -->
+        <section class="text-center space-y-2">
+            <div class="inline-block bg-emerald-100 text-emerald-800 font-semibold text-xs px-3 py-1 rounded-full">● Live Classes · Sikar</div>
+            <h1 class="text-3xl font-extrabold text-slate-900 leading-tight">Best Stock Market Classes in Sikar</h1>
+            <p class="text-slate-600 text-sm leading-relaxed">Learn professional trading, investment training, and future & options strategies from scratch at Tapadia Bagichi, Sikar.</p>
+        </section>
+
+        <!-- 4. SERVICES LIST -->
+        <section class="space-y-4">
+            <div class="text-center">
+                <span class="text-blue-600 text-xs font-bold uppercase tracking-wider">Our Services</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-1">What Training We Offer</h3>
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+                <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 text-center">
+                    <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full mx-auto mb-2 flex items-center justify-center font-bold text-xs">📈</div>
+                    <h4 class="font-bold text-xs text-slate-800">Trading Classes</h4>
+                </div>
+                <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 text-center">
+                    <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full mx-auto mb-2 flex items-center justify-center font-bold text-xs">💰</div>
+                    <h4 class="font-bold text-xs text-slate-800">Investment Training</h4>
+                </div>
+                <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 text-center">
+                    <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full mx-auto mb-2 flex items-center justify-center font-bold text-xs">📊</div>
+                    <h4 class="font-bold text-xs text-slate-800">Future & Options</h4>
+                </div>
+                <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 text-center">
+                    <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full mx-auto mb-2 flex items-center justify-center font-bold text-xs">🛢️</div>
+                    <h4 class="font-bold text-xs text-slate-800">MCX Commodity</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. FAQ ACCORDION -->
+        <section class="space-y-3">
+            <h3 class="text-xl font-bold text-slate-900 text-center">Frequently Asked Questions</h3>
+            <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm">
+                <button onclick="toggleFaq(this)" class="w-full px-4 py-3 text-left text-sm font-semibold flex justify-between items-center">
+                    <span>Where are the classes conducted in Sikar?</span>
+                    <span class="text-slate-400 text-base font-light">+</span>
+                </button>
+                <div class="hidden px-4 pb-3 text-xs text-slate-600 border-t pt-2 leading-relaxed">
+                    Our institute is located at Tapadia bagichi, Doliyon Ka Bass, Sikar, Rajasthan 332001. You can visit us for offline counseling.
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 6. FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-xs px-6 py-8 space-y-6 mt-12">
+        <div class="space-y-2">
+            <h4 class="font-bold text-white text-sm">SHEKHAWATI STOCK MARKET</h4>
+            <p class="leading-relaxed">Trusted Educational Consultant in Sikar providing high-end practical share market trading and wealth investment training.</p>
+        </div>
+        <div class="space-y-2">
+            <h4 class="font-bold text-white text-sm">Our Location</h4>
+            <p class="text-slate-400">📍 Tapadia bagichi, Doliyon Ka Bass, Sikar, Rajasthan 332001</p>
+        </div>
+        <div class="border-t border-slate-800 pt-4 text-center">
+            <p>© 2026 Shekhawati Training. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function sendToWhatsapp(event) {
+            event.preventDefault();
+            var name = document.getElementById('fullname').value;
+            var phone = document.getElementById('phone').value;
+            var course = document.getElementById('course').value;
+            var city = document.getElementById('city').value;
+            
+            var targetCompanyNumber = "917023147693";
+            
+            var message = "Hello Shekhawati Institute,%0A%0AI want to book a Free Demo Class.%0A%0A" +
+                            "*Name:* " + encodeURIComponent(name) + "%0A" +
+                            "*Phone:* " + encodeURIComponent(phone) + "%0A" +
+                            "*Interested In:* " + encodeURIComponent(course) + "%0A" +
+                            "*Location:* " + encodeURIComponent(city);
+            
+            window.open("https://wa.me" + targetCompanyNumber + "?text=" + message, '_blank');
+        }
+
+        function toggleFaq(button) {
+            var panel = button.nextElementSibling;
+            var symbol = button.querySelector('span:last-child');
+            if (panel.classList.contains('hidden')) {
+                panel.classList.remove('hidden');
+                symbol.textContent = '−';
+            } else {
+                panel.classList.add('hidden');
+                symbol.textContent = '+';
+            }
+        }
+    </script>
+</body>
+</html>
